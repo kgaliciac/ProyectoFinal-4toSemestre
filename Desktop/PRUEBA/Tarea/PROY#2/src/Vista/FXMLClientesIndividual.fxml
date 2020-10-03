@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="386.0" prefWidth="658.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.FXMLClientesIndividualController">
+   <children>
+      <TableView fx:id="tblClientesIndividuales" layoutX="33.0" layoutY="58.0" prefHeight="248.0" prefWidth="593.0">
+        <columns>
+          <TableColumn fx:id="colCodigo" prefWidth="69.0" text="CODIGO" />
+          <TableColumn fx:id="colNombre" prefWidth="94.0" text="NOMBRE" />
+            <TableColumn fx:id="colApellido" prefWidth="82.0" text="APELLIDO" />
+            <TableColumn fx:id="colTelefono" text="TELEFONO" />
+            <TableColumn fx:id="colDireccion" prefWidth="167.0" text="DIRECCION" />
+            <TableColumn fx:id="colDpi" prefWidth="100.0" text="DPI" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnAgregar" layoutX="94.0" layoutY="318.0" mnemonicParsing="false" onAction="#AgregarIndividual" prefHeight="36.0" prefWidth="92.0" text="AGREGAR" />
+      <Button fx:id="btnModificar" layoutX="283.0" layoutY="318.0" mnemonicParsing="false" onAction="#ModificarIndividual" prefHeight="36.0" prefWidth="92.0" text="MODIFICAR" />
+      <Button fx:id="btnEliminar" layoutX="467.0" layoutY="318.0" mnemonicParsing="false" onAction="#EliminarIndividual" prefHeight="36.0" prefWidth="92.0" text="ELIMINAR" />
+      <Label layoutX="201.0" layoutY="25.0" text="CLIENTE INDIVIDUAL">
+         <font>
+            <Font name="Times New Roman" size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

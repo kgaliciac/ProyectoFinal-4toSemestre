@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.FXMLProductoController">
+   <children>
+      <Label layoutX="35.0" layoutY="28.0" text="Codigo" />
+      <TextField fx:id="txtCodigo" layoutX="90.0" layoutY="24.0" prefHeight="25.0" prefWidth="68.0" />
+      <Label layoutX="35.0" layoutY="60.0" text="Seccion" />
+      <TextField fx:id="txtSeccion" layoutX="90.0" layoutY="56.0" prefHeight="25.0" prefWidth="166.0" />
+      <Label layoutX="35.0" layoutY="91.0" text="Producto" />
+      <TextField fx:id="txtProducto" layoutX="90.0" layoutY="87.0" prefHeight="25.0" prefWidth="166.0" />
+      <Label layoutX="35.0" layoutY="121.0" text="Precio" />
+      <TextField fx:id="txtPrecio" layoutX="90.0" layoutY="117.0" prefHeight="25.0" prefWidth="89.0" />
+      <TableView fx:id="tblProducto" layoutX="35.0" layoutY="166.0" prefHeight="200.0" prefWidth="531.0">
+        <columns>
+          <TableColumn fx:id="colCodigo" prefWidth="81.0" text="CODIGO" />
+          <TableColumn fx:id="colSeccion" prefWidth="182.0" text="SECCION" />
+            <TableColumn fx:id="colProducto" prefWidth="161.0" text="PRODUCTO" />
+            <TableColumn fx:id="colPrecio" prefWidth="106.0" text="PRECIO" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnAgregar" layoutX="395.0" layoutY="24.0" mnemonicParsing="false" onAction="#AgregarProducto" prefHeight="25.0" prefWidth="89.0" text="AGREGAR" />
+      <Button fx:id="btnEliminar" layoutX="395.0" layoutY="65.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="89.0" text="Button" />
+   </children>
+</AnchorPane>

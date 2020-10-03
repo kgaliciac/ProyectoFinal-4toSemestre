@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="Controller.FXMLMenuPrincipalController">
+   <children>
+      <MenuBar layoutY="14.0" prefHeight="25.0" prefWidth="600.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="CLIENTES">
+            <items>
+                  <MenuItem mnemonicParsing="false" text="Ver Clientes Individuales" />
+              <MenuItem mnemonicParsing="false" text="Agregar Cliente Individual" />
+                  <MenuItem mnemonicParsing="false" text="Modificar Cliente Individual" />
+                  <MenuItem mnemonicParsing="false" text="Eliminar Cliente Individual" />
+                  <MenuItem mnemonicParsing="false" text="Ver Clientes Empresa" />
+                  <MenuItem mnemonicParsing="false" text="Agregar Cliente Empresa" />
+                  <MenuItem mnemonicParsing="false" text="Modificar Cliente Empresa" />
+                  <MenuItem mnemonicParsing="false" text="Eliminar Cliente Empresa" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="PRODUCTOS">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="COMPRAS">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Unspecified Menu">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>

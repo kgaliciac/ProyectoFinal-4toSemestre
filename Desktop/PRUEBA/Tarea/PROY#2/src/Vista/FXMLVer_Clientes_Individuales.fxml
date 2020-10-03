@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="403.0" prefWidth="688.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="Controller.FXMLVer_Clientes_IndividualesController">
+   <children>
+      <TableView fx:id="tblIndividual" layoutX="27.0" layoutY="68.0" prefHeight="267.0" prefWidth="626.0">
+        <columns>
+          <TableColumn fx:id="colCodigo" prefWidth="75.0" text="CODIGO" />
+          <TableColumn fx:id="colNombre" prefWidth="87.0" text="NOMBRE" />
+            <TableColumn fx:id="colApellido" prefWidth="79.0" text="APELLIDO" />
+            <TableColumn fx:id="colTelefono" prefWidth="90.0" text="TELEFONO" />
+            <TableColumn fx:id="colDireccion" prefWidth="185.0" text="DIRECCION" />
+            <TableColumn fx:id="colDpi" minWidth="0.0" prefWidth="109.0" text="DPI" />
+        </columns>
+      </TableView>
+      <Label layoutX="182.0" layoutY="30.0" text="CLIENTES INDIVIDUALES">
+         <font>
+            <Font name="Times New Roman" size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnRegresar" layoutX="292.0" layoutY="354.0" mnemonicParsing="false" onAction="#Regresar" prefHeight="35.0" prefWidth="131.0" text="REGRESAR" />
+   </children>
+</AnchorPane>
